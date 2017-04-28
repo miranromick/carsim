@@ -4,13 +4,39 @@
   </head>
   <body>
     <form action="/status" method="post">
-      <label> Car Make: </label>
-      <input type="text" name="make"/><br>
+      <label>
+        <input type='radio' name='make' value='jeep'/>
+        jeep
+      </label>
+      <label>
+        <input type='radio' name='make' value='bentley'/>
+        bentley
+      </label>
+      <label>
+        <input type='radio' name='make' value='tesla'/>
+        tesla
+      </label>
+      <label>
+        <input type='radio' name='make' value='porsche'/>
+        porsche
+      </label>
+      <label>
+        <input type='radio' name='make' value='aston martin'/>
+        aston martin
+      </label>
+      <label>
+        <input type='radio' name='make' value='honda'/>
+        honda
+      </label><br>
+      <!-- <label> Car Make: </label>
+      <input type="text" name="make"/><br> -->
       <label> Car Year: </label>
       <input type="text" name="year"/><br>
-      <label> Speed: </label>
-      <input type= "text" name"speed"/>
+      <label>
+        <input type="color" name="color" class="backGround">Choose Color
+      </label>
       <input type="submit" value="submit"/>
     </form>
   </body>
 </html>
+</label>

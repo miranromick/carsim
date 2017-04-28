@@ -2,9 +2,26 @@
   <head>
     <title>New Car</title>
   </head>
-  <body>
+  <body style="background-color:<%= car.color %>">
     <h1>Car</h1>
-    <h1> Make: <%= make %></h1>
-    <h1> Year: <%= year %></h1>
+    <br>
+    <br>
+    <h2>Car Make: <%= car.make %></h2>
+    <h2>Car Year: <%= car.year %></h2>
+    <h2>Car Speed:  <%= car.speed %></h2>
+    <h2>Car Light: <%= car.light %></h2>
+    <h2>Parking Brake:<%= car.parkingBrake %> </h2>
+    <br />
+    <br />
+    <br />
+    <p>
+      <img src="<%= car.img %>" width="50%">
+    </p>
+
+
+    <a href="/parkingBrake">Parking Brake:</a>
+    <a href="/accelerate">Go Faster</a>
+    <a href="/brake">Go Slower</a>
+    <a href="/light">Light</a>
   </body>
 </html>
